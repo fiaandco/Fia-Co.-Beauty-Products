@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fia Co. Beauty Products</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sidebar">
+            <h2>Filters</h2>
+            <form>
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="">All</option>
+                    <option value="skincare">Skincare</option>
+                    <option value="makeup">Makeup</option>
+                    <option value="haircare">Haircare</option>
+                </select>
+                <label for="price">Price Range:</label>
+                <input type="text" id="price" name="price" placeholder="Enter price range">
+                <button type="submit">Apply Filters</button>
+            </form>
+        </section>
+        <section class="products-grid">
+            <h2>Available Products</h2>
+            <div class="product-item">
+                <h3>Product 1</h3>
+                <p>Product description goes here.</p>
+                <p>Price: $19.99</p>
+            </div>
+            <div class="product-item">
+                <h3>Product 2</h3>
+                <p>Product description goes here.</p>
+                <p>Price: $29.99</p>
+            </div>
+            <div class="product-item">
+                <h3>Product 3</h3>
+                <p>Product description goes here.</p>
+                <p>Price: $39.99</p>
+            </div>
+            <!-- More products can be added here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Fia Co. Beauty Products. All rights reserved.</p>
+    </footer>
+</body>
+</html>
